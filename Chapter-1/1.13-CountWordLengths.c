@@ -4,11 +4,7 @@
 
 int main() {
     int c, count;
-    int lengths[NO_WORDS];
-
-    /* Initialise array */
-    for (int i = 0; i < NO_WORDS; i++)
-        lengths[i] = 0;
+    int lengths[NO_WORDS] = {0};
 
     /* Count lengths of each word */
     count = 0;
