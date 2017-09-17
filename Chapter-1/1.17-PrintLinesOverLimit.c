@@ -4,9 +4,8 @@
 #define LIMIT 80 /* minimum number of characters in printed lines */
 
 int getLine(char line[], int maxline);
-void copy(char to[], char from[]);
 
-/* print the longest input line */
+/* Prints all lines from the input that have more characters than LIMIT */
 int main() {
 
     int len; /* current line length */
